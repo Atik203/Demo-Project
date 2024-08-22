@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <DashboardMenu />
       <main className="col-span-10 bg-gray-100 p-8">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold">Dashboard Content</h1>
+          <h1 className="text-3xl font-bold">Dashboard</h1>
         </header>
         <section className="mb-8">
           <SpreadSheet />
