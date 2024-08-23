@@ -1,6 +1,8 @@
 import { createBrowserRouter, Link } from "react-router-dom";
 import App from "../App";
-import Home from "../pages/Home";
+import SpreadSheet1 from "../components/ui/SpreadSheet1";
+import SpreadSheet2 from "../components/ui/SpreadSheet2";
+import SpreadSheet3 from "../components/ui/SpreadSheet3";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +20,16 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: "/",
-        element: <Home />,
+        path: "/sheet1",
+        element: <SpreadSheet1 />,
+      },
+      {
+        path: "/sheet2",
+        element: <SpreadSheet2 />,
+      },
+      {
+        path: "/sheet3",
+        element: <SpreadSheet3 />,
       },
     ],
   },

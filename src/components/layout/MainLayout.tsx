@@ -1,9 +1,7 @@
-import { Outlet } from "react-router-dom";
-
 const MainLayout = () => {
   return (
     <div>
-      <Outlet />
+      <h1>Main Layout </h1>
     </div>
   );
 };
