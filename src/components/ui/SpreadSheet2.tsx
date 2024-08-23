@@ -10,7 +10,7 @@ import {
   SpreadsheetComponent,
 } from "@syncfusion/ej2-react-spreadsheet";
 
-function SpreadSheet2() {
+const SpreadSheet2 = () => {
   let ssObj: SpreadsheetComponent;
   const image1 = [
     {
@@ -216,6 +216,6 @@ function SpreadSheet2() {
       </SpreadsheetComponent>
     </div>
   );
-}
+};
 
 export default SpreadSheet2;
