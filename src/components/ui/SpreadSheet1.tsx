@@ -15,7 +15,7 @@ import {
 } from "@syncfusion/ej2-react-spreadsheet";
 
 import { FormattingData } from "./data";
-function SpreadSheet1() {
+const SpreadSheet1 = () => {
   let ssObj: SpreadsheetComponent;
   const onCreated = () => {
     ssObj.numberFormat("$#,##0.00", "D3:F18");
@@ -94,6 +94,6 @@ function SpreadSheet1() {
       </SpreadsheetComponent>
     </div>
   );
-}
+};
 
 export default SpreadSheet1;

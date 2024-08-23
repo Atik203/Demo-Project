@@ -18,7 +18,7 @@ import {
 
 import { GDPData } from "./data";
 
-function SpreadSheet3() {
+const SpreadSheet3 = () => {
   let ssObj: SpreadsheetComponent;
   const chartDetails: ChartModel[] = [
     { type: "Line", theme: "Fabric", isSeriesInRows: false, range: "A2:E8" },
@@ -85,6 +85,6 @@ function SpreadSheet3() {
       </SpreadsheetComponent>
     </div>
   );
-}
+};
 
 export default SpreadSheet3;
