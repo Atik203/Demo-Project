@@ -1,0 +1,31 @@
+{
+  "header": [
+    "itemCode",
+    "itemName",
+    "quantity",
+    "purchasePrice",
+    "sellingPrice",
+    "lastUpdated",
+    "rating"
+  ],
+  "data": [
+    {
+      "itemCode": "AG940Z",
+      "itemName": "Laser Printer",
+      "quantity": 144,
+      "purchasePrice": 169.5,
+      "sellingPrice": 172,
+      "lastUpdated": "5/25/19",
+      "rating": 4.5
+    },
+    {
+      "itemCode": "BJ120K",
+      "itemName": "Scientific Calculator",
+      "quantity": 116,
+      "purchasePrice": 21.8,
+      "sellingPrice": 23,
+      "lastUpdated": "7/28/19",
+      "rating": 4.0
+    }
+  ]
+}
