@@ -3,6 +3,7 @@ import App from "../App";
 import SpreadSheet1 from "../components/ui/SpreadSheet1";
 import SpreadSheet2 from "../components/ui/SpreadSheet2";
 import SpreadSheet3 from "../components/ui/SpreadSheet3";
+import Home from "../pages/Home";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       </div>
     ),
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "/sheet1",
         element: <SpreadSheet1 />,
