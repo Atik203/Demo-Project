@@ -4,6 +4,11 @@ const Navbar = () => {
     <div className=" bg-gray-800 text-white p-3 ">
       <ul className="flex justify-center items-center gap-5">
         <li className="">
+          <Link to={"/"} className="hover:text-gray-400">
+            Home
+          </Link>
+        </li>
+        <li className="">
           <Link to={"/sheet1"} className="hover:text-gray-400">
             Example 1
           </Link>
