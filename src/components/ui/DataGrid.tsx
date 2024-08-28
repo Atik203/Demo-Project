@@ -236,7 +236,6 @@ const DataGrid = () => {
             >
               <option value="bar">Bar Chart</option>
               <option value="line">Line Chart</option>
-              <option value="pie">Pie Chart</option>
             </select>
             <button
               onClick={addRow}
