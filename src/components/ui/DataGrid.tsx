@@ -62,7 +62,17 @@ const DataGrid = () => {
 
   const handleExport = () => {
     if (gridRef.current) {
-      gridRef.current.api.exportDataAsCsv();
+      gridRef.current.api.exportDataAsCsv({
+        columnKeys: sheets[activeSheet].headers,
+        fileName: "export.csv",
+        processCellCallback: (params) => {
+          if (params.column.getColId() === "lastUpdated") {
+            const date = new Date(params.value);
+            return date.toLocaleDateString();
+          }
+          return params.value;
+        },
+      });
     }
   };
 

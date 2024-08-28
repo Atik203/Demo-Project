@@ -26,6 +26,51 @@
       "sellingPrice": 23,
       "lastUpdated": "7/28/19",
       "rating": 4.0
+    },
+    {
+      "itemCode": "CD340L",
+      "itemName": "Wireless Mouse",
+      "quantity": 200,
+      "purchasePrice": 15.0,
+      "sellingPrice": 20.0,
+      "lastUpdated": "8/15/19",
+      "rating": 4.2
+    },
+    {
+      "itemCode": "EF560M",
+      "itemName": "Mechanical Keyboard",
+      "quantity": 75,
+      "purchasePrice": 85.0,
+      "sellingPrice": 90.0,
+      "lastUpdated": "9/10/19",
+      "rating": 4.8
+    },
+    {
+      "itemCode": "GH780N",
+      "itemName": "Gaming Headset",
+      "quantity": 50,
+      "purchasePrice": 60.0,
+      "sellingPrice": 65.0,
+      "lastUpdated": "10/05/19",
+      "rating": 4.6
+    },
+    {
+      "itemCode": "IJ910P",
+      "itemName": "External Hard Drive",
+      "quantity": 120,
+      "purchasePrice": 55.0,
+      "sellingPrice": 60.0,
+      "lastUpdated": "11/20/19",
+      "rating": 4.4
+    },
+    {
+      "itemCode": "KL112Q",
+      "itemName": "USB Flash Drive",
+      "quantity": 300,
+      "purchasePrice": 10.0,
+      "sellingPrice": 12.0,
+      "lastUpdated": "12/15/19",
+      "rating": 4.1
     }
   ]
 }
